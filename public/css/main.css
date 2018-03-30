@@ -1,3 +1,8 @@
+body,
+body * {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box; }
+
 body {
   background-image: url(../img/hundene2.jpg);
   background-repeat: no-repeat;
@@ -36,7 +41,8 @@ body {
     border-radius: 5px;
     border: 1px solid transparent;
     display: block;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 15px; }
 
 .newsletter__input:active, .newsletter__input:focus {
