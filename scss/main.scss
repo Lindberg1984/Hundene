@@ -7,6 +7,8 @@ body {
   padding: 0;
 }
 
+@import "./newsletter";
+
 .header {
   background-color: #000000;
   height: 45px;
@@ -27,16 +29,28 @@ body {
   }
 }
 
+.highlighted {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.newsletter {
+  flex-basis: 35%;
+  margin-left: 10px;
+}
+
 /* Description and frames settings begin here! */
 
 .description {
-  margin: 140px 0 0 55px;
-  width: 442px;
+  margin-right: 10px;
+  flex-basis: 65%;
 
   &__info {
     color: #fff;
     font-size: 30px;
     font-weight: 700;
+    width: 52%;
   }
 
   &__learn {
