@@ -61,6 +61,10 @@ body {
     text-align: center;
     width: 400px; }
 
+.newsletter__subscribe:hover {
+      -webkit-box-shadow: 2px 2px 2px 2px #000;
+              box-shadow: 2px 2px 2px 2px #000; }
+
 .header {
   background-color: #000000;
   height: 45px;
