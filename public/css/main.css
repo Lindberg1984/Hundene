@@ -71,9 +71,15 @@ body {
 .intro {
   border: 2px solid #fff;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 12px auto 0;
   text-align: center;
+  -webkit-transition: all 800ms ease-in-out;
+  transition: all 800ms ease-in-out;
   width: 400px; }
+
+.intro:hover {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg); }
 
 .intro__welcome {
     color: #fff; }

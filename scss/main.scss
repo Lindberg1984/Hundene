@@ -25,9 +25,14 @@ body {
 .intro {
   border: 2px solid #fff;
   border-radius: 15px;
-  margin: 0 auto;
+  margin: 12px auto 0;
   text-align: center;
+  transition: all 800ms ease-in-out;
   width: 400px;
+
+  &:hover {
+    transform: rotateY(360deg);
+  }
 
   &__welcome {
     color: #fff;
