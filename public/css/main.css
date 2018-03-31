@@ -126,7 +126,11 @@ body {
     width: 110px; }
 
 .description__button:hover {
-      background-color: #fff; }
+      background-color: #fff;
+      -webkit-box-shadow: 2px 2px 2px 2px;
+              box-shadow: 2px 2px 2px 2px;
+      -webkit-transform: scale(1.03);
+              transform: scale(1.03); }
 
 /* Main menu settings begin here! */
 

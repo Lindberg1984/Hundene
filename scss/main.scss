@@ -75,6 +75,8 @@ body {
 
     &:hover {
       background-color: #fff;
+      box-shadow: 2px 2px 2px 2px;
+      transform: scale(1.03);
     }
   }
 }
