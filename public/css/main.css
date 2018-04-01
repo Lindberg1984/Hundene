@@ -62,8 +62,8 @@ body {
     width: 400px; }
 
 .newsletter__subscribe:hover {
-      -webkit-box-shadow: 2px 2px 2px 2px #000;
-              box-shadow: 2px 2px 2px 2px #000; }
+      -webkit-box-shadow: 2px 2px 2px 2px rgba(53, 53, 53, .418);
+              box-shadow: 2px 2px 2px 2px rgba(53, 53, 53, .418); }
 
 .header {
   background-color: #000000;
