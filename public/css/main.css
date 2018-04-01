@@ -12,12 +12,12 @@ body {
   padding: 0; }
 
 .newsletter {
-  background-color: #2ca806;
-  border-radius: 15px;
-  border: 1px solid #000000;
   margin: 0 auto;
-  padding: 10px 0px 12px;
-  text-align: center; }
+  text-align: center;
+  background-color: #2ca806;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 10px 0px 12px; }
 
 .newsletter__info {
     color: #fff;
@@ -29,27 +29,27 @@ body {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-    margin-bottom: 30px;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 30px; }
 
 .newsletter__picture-image {
       height: 80px;
       width: 110px; }
 
 .newsletter__input {
+    padding: 5px 2px;
     border-radius: 5px;
     border: 1px solid transparent;
     display: block;
-    margin-bottom: 15px;
+    width: 80%;
     margin: 0 auto;
-    padding: 5px 2px;
-    width: 80%; }
+    margin-bottom: 15px; }
 
 .newsletter__input:active, .newsletter__input:focus {
       border: 1px solid black;
+      outline: none;
       -webkit-box-shadow: 2px 2px 3px rgba(77, 77, 77, .3);
-              box-shadow: 2px 2px 3px rgba(77, 77, 77, .3);
-      outline: none; }
+              box-shadow: 2px 2px 3px rgba(77, 77, 77, .3); }
 
 .newsletter__subscribe {
     background-color: orange;
