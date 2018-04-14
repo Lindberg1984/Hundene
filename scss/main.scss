@@ -29,14 +29,6 @@ body {
   text-align: center;
   transition: all 800ms ease-in-out;
   width: 400px;
-
-  &:hover {
-    transform: rotateY(360deg);
-  }
-
-  &__welcome {
-    color: #fff;
-  }
 }
 
 .highlighted {
